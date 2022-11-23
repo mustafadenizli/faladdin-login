@@ -1,0 +1,744 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669237006110' stop='1669237027487'>
+    <name>faladdin login steps: user wants to login on faladdin</name>
+    <title>faladdin login steps: user wants to login on faladdin</title>
+    <test-cases>
+        <test-case start='1669237006111' status='passed' stop='1669237007838'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237006112' status='passed' stop='1669237007837'>
+                    <name>POST /session/:sessionId/appium/app/reset</name>
+                    <title>POST /session/:sessionId/appium/app/reset</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237007838' status='passed' stop='1669237013128'>
+            <name>Given user on login page</name>
+            <title>Given user on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237007841' status='passed' stop='1669237008309'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9c842608-4a19-4d5b-9c81-0c1175c63fca-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='fa7d0212-daa4-4501-9f3c-ff5ed6e7c45c-attachment.json' type='application/json' size='947'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237008316' status='passed' stop='1669237008347'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1ac94786-14f7-4699-879e-431f47181cd1-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='2f188d9d-0941-4647-89c4-b9acb03f4047-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237008817' status='passed' stop='1669237010116'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a5395294-7240-4ef6-9513-6ae8959e07f3-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='89dc848f-4dc2-426f-84f5-729044bf297d-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237010119' status='passed' stop='1669237010207'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ac3eb0ad-d7f6-4cf9-9de9-a3a88581e84d-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='38995c1a-863f-4ff0-b21c-69de5dde8205-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237010212' status='passed' stop='1669237010297'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c1-ffff-ffff0000001a/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c1-ffff-ffff0000001a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669237010297' status='passed' stop='1669237010964'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d3d570bf-424b-4c21-aab0-e393b357a4a7-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='6e37cd2d-70d2-4249-989f-1ea370cc7819-attachment.json' type='application/json' size='947'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237010967' status='passed' stop='1669237012985'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='828923a6-925f-4f20-b07d-2c7180a1139a-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='1f1d67ea-d5c5-48df-ab50-e00e2bff6caa-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237012988' status='passed' stop='1669237013051'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000050/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000050/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669237013052' status='passed' stop='1669237013123'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57a0a895-309e-474e-b7a3-d8439e0c3c84-attachment.json' type='application/json' size='120'/>
+                        <attachment title='Response' source='9a11688c-1590-44b5-9873-d65d71587629-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237013129' status='passed' stop='1669237013822'>
+            <name>When user taps to Google Button: "Google ile Devam Et" on login page</name>
+            <title>When user taps to Google Button: "Google ile Devam Et" on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237013129' status='passed' stop='1669237013734'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0310667b-dcf0-4cf8-b58f-16f4772b89e5-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='c79ce6b0-61c8-4dbe-946a-44734d969c67-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237013739' status='passed' stop='1669237013769'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000000e8/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000000e8/text</title>
+                    <attachments>
+                        <attachment title='Response' source='0083f1b3-dcef-48c8-94a2-702bedabfdf9-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237013771' status='passed' stop='1669237013821'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000000e8/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000000e8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237013822' status='passed' stop='1669237014620'>
+            <name>Then user should see kvkk text title: "Kullanıcı Aydınlatma Metni"</name>
+            <title>Then user should see kvkk text title: "Kullanıcı Aydınlatma Metni"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237013822' status='passed' stop='1669237013933'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ebee2687-a14e-4c3a-9374-c115020ca98b-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='2d66499c-69ae-4f16-b64a-55eff047952c-attachment.json' type='application/json' size='911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237013935' status='passed' stop='1669237014537'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bcc21c1b-42fe-4bd9-8ad5-f11cdb9b79e9-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='b1684c6a-bbd9-4467-a004-23f874407435-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237014539' status='passed' stop='1669237014574'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='92052963-373f-44e3-8791-02deb27412c8-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='bd8ea7fc-dbfc-4a5d-a16c-ca5470406eba-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237014578' status='passed' stop='1669237014619'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c4-ffff-ffff000000f4/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c4-ffff-ffff000000f4/text</title>
+                    <attachments>
+                        <attachment title='Response' source='99b17ae2-bbdf-4d63-8f51-baf323ed4672-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237014620' status='passed' stop='1669237014758'>
+            <name>When user taps to Anladım button</name>
+            <title>When user taps to Anladım button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237014621' status='passed' stop='1669237014675'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c44bb35a-422c-4506-bce3-4849de700a0d-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='4c928967-fb78-4d35-8ada-9a3626e32f33-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237014678' status='passed' stop='1669237014757'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c4-ffff-ffff000000fd/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c4-ffff-ffff000000fd/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237014758' status='passed' stop='1669237017480'>
+            <name>Then user should see account select screen page title: "Bir hesap seçin"</name>
+            <title>Then user should see account select screen page title: "Bir hesap seçin"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237014759' status='passed' stop='1669237015039'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1611ee74-9e22-4c52-9c23-26170aa81518-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='0f9ce410-5962-41c4-9970-24b5aa51dfab-attachment.json' type='application/json' size='911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237015042' status='passed' stop='1669237016063'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e8a9bed2-11b9-400f-bd99-c46e12acb10f-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='eb4acdde-2406-4a9b-b9c9-6b9627b12260-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237016065' status='passed' stop='1669237016105'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8ed6189f-3134-4568-a801-105e334836d5-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='a9cd446c-cdab-4c32-87ed-93bd0c6d7481-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237016108' status='passed' stop='1669237016154'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a564e896-e56a-45a2-996b-df0ae57fef59-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='478e5b82-aca2-46da-b0a9-ab4bb0ce66dc-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237016544' status='passed' stop='1669237016660'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bc49c70a-fad9-4cc0-a323-eacaa14dc2bb-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='9c56a032-a9b0-449e-91a3-0039f9ee01f8-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237017046' status='passed' stop='1669237017402'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='97c66776-51d7-4017-833f-c2a535697ff9-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='74b4b00d-3675-4a52-9e71-506921356a20-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237017404' status='passed' stop='1669237017444'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fb88f365-dbab-4bee-a245-07d818c2e955-attachment.json' type='application/json' size='121'/>
+                        <attachment title='Response' source='2678230e-dd02-4a95-88de-ef03b621ef7f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237017447' status='passed' stop='1669237017480'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c9-ffff-ffff00000018/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c9-ffff-ffff00000018/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b4f9fc3c-87bb-447e-8a7c-7d0d8ab0891b-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237017480' status='passed' stop='1669237017648'>
+            <name>When user select account</name>
+            <title>When user select account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237017481' status='passed' stop='1669237017551'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2d3d63b8-7679-4f04-8557-203d61df9ed3-attachment.json' type='application/json' size='199'/>
+                        <attachment title='Response' source='06c0ca4c-8f96-42c9-bfaf-35364d244ab3-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237017553' status='passed' stop='1669237017647'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c9-ffff-ffff0000001f/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c9-ffff-ffff0000001f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237017648' status='passed' stop='1669237020413'>
+            <name>Then user should see success screen: "Faladdin’e hoş geldin!"</name>
+            <title>Then user should see success screen: "Faladdin’e hoş geldin!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237017648' status='passed' stop='1669237019793'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9860d3cc-660d-47b8-9719-c3a027327cff-attachment.json' type='application/json' size='120'/>
+                        <attachment title='Response' source='5c794e70-43d0-4725-be47-e602a0b651a6-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237019796' status='passed' stop='1669237020412'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000189/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000189/text</title>
+                    <attachments>
+                        <attachment title='Response' source='fb3cc83e-3e9b-4486-9b4e-a6ace48cc133-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237020413' status='passed' stop='1669237020501'>
+            <name>When user taps to close icon</name>
+            <title>When user taps to close icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237020413' status='passed' stop='1669237020446'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e555a5d-23fd-4a06-a25d-575515316d48-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='bc90679d-0145-4d70-a0b7-ed60e764ca3e-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237020448' status='passed' stop='1669237020500'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000187/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000187/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237020501' status='passed' stop='1669237020970'>
+            <name>Then user should see home page image view header</name>
+            <title>Then user should see home page image view header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237020502' status='passed' stop='1669237020967'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c3db074-0e7e-46d0-aa98-9d804f047582-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='b84a80bf-db56-44a7-a890-07d4ea5c4a45-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237020970' status='passed' stop='1669237021871'>
+            <name>When user taps to login icon</name>
+            <title>When user taps to login icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237020971' status='passed' stop='1669237021807'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8021f2f3-ce2b-4ca3-bc48-5777a9ba83a5-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='207426ea-fcf5-4219-b410-6ffa602024c8-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237021810' status='passed' stop='1669237021871'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000050/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000050/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237021872' status='passed' stop='1669237022657'>
+            <name>Then user should see profil page title: "Profilim"</name>
+            <title>Then user should see profil page title: "Profilim"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237021872' status='passed' stop='1669237022108'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='874d667b-d24b-40d2-bf4d-f255dec5e390-attachment.json' type='application/json' size='118'/>
+                        <attachment title='Response' source='ae8c84e6-bb61-43e3-866e-c665960ebddb-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237022112' status='passed' stop='1669237022656'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff0000027a/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff0000027a/text</title>
+                    <attachments>
+                        <attachment title='Response' source='d666f501-6eb9-465c-8147-bf540f94d6c1-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237022657' status='passed' stop='1669237022808'>
+            <name>When user taps to settings icon</name>
+            <title>When user taps to settings icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237022658' status='passed' stop='1669237022720'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b5cbfba-6101-4de8-90c2-d891010e9a7a-attachment.json' type='application/json' size='119'/>
+                        <attachment title='Response' source='702959ff-7a31-463e-a757-b2482e58ca12-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237022725' status='passed' stop='1669237022807'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000278/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff00000278/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237022808' status='passed' stop='1669237023957'>
+            <name>Then user should see settings language text: "Dil"</name>
+            <title>Then user should see settings language text: "Dil"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237022808' status='passed' stop='1669237023074'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5642379-7097-40c3-a80a-9227dcfba02f-attachment.json' type='application/json' size='115'/>
+                        <attachment title='Response' source='7041d5c4-edd0-4632-948f-122793d4ae81-attachment.json' type='application/json' size='947'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237023076' status='passed' stop='1669237023883'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f7d3e645-1886-4e0d-b23f-d94fd9440655-attachment.json' type='application/json' size='115'/>
+                        <attachment title='Response' source='0b59c6a9-d7cf-42fe-82f9-61f01e955d80-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237023885' status='passed' stop='1669237023928'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ea29f895-059b-4c35-8242-787e5b02aacf-attachment.json' type='application/json' size='115'/>
+                        <attachment title='Response' source='12050cd4-7a51-46e8-89d3-957a07c99b96-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237023931' status='passed' stop='1669237023956'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000002d4/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000002d4/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b84206f7-1491-461a-a37f-5ebbb9b9da01-attachment.json' type='application/json' size='5'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237023957' status='passed' stop='1669237025801'>
+            <name>When user taps to delete account button</name>
+            <title>When user taps to delete account button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237023958' status='passed' stop='1669237023978'>
+                    <name>GET /session/:sessionId/window/rect</name>
+                    <title>GET /session/:sessionId/window/rect</title>
+                    <attachments>
+                        <attachment title='Response' source='6839ec3b-3628-4275-b8c7-e6f986b766a8-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237023978' status='passed' stop='1669237025431'>
+                    <name>POST /session/:sessionId/touch/perform</name>
+                    <title>POST /session/:sessionId/touch/perform</title>
+                    <attachments>
+                        <attachment title='Request' source='14fc3e63-06f6-4e9c-91a7-7ba85bb4b292-attachment.json' type='application/json' size='349'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237025685' status='passed' stop='1669237025730'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d5661576-4617-4726-9f6b-d4b5083b25de-attachment.json' type='application/json' size='117'/>
+                        <attachment title='Response' source='ecd77f9d-4af2-4283-94a9-a2b42f8f75ee-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237025732' status='passed' stop='1669237025801'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000002f2/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06c3-ffff-ffff000002f2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237025802' status='passed' stop='1669237026479'>
+            <name>Then user should see confirmation screen page title: "Hesabını silmek istediğine emin misin?"</name>
+            <title>Then user should see confirmation screen page title: "Hesabını silmek istediğine emin misin?"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237025802' status='passed' stop='1669237025954'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8db728eb-868c-4907-b2d5-5e00ae536118-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='e133a0e8-b374-4c96-b77d-fdd53bf64a7f-attachment.json' type='application/json' size='947'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237025958' status='passed' stop='1669237026415'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2d9d471b-953b-4411-a856-f89aee2fb2a8-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='5fe971dd-8ba6-4c2b-97ec-353949f2f420-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237026417' status='passed' stop='1669237026452'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='684bd0f6-c7cf-42ac-8809-27b4fc7b8200-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='ad7e46c0-feb7-4dd6-8644-46593df1bb20-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237026454' status='passed' stop='1669237026479'>
+                    <name>GET /session/:sessionId/element/00000000-0000-06ce-ffff-ffff00000326/text</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-06ce-ffff-ffff00000326/text</title>
+                    <attachments>
+                        <attachment title='Response' source='9e1050e1-db86-49e2-a1ab-9cb2ed8de89a-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237026479' status='passed' stop='1669237026587'>
+            <name>When user taps to yes delete button</name>
+            <title>When user taps to yes delete button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237026480' status='passed' stop='1669237026517'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b2cbe60a-5190-4c80-97fe-239f45e0d345-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='174b03d8-3422-4667-9273-1dcfe2cb1e04-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669237026519' status='passed' stop='1669237026586'>
+                    <name>POST /session/:sessionId/element/00000000-0000-06ce-ffff-ffff00000329/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-06ce-ffff-ffff00000329/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237026587' status='passed' stop='1669237027486'>
+            <name>Then user should see faladdin promotional screen image</name>
+            <title>Then user should see faladdin promotional screen image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps>
+                <step start='1669237026587' status='passed' stop='1669237027484'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90767a4e-66ac-4e7a-8f5f-f348a0fb45cb-attachment.json' type='application/json' size='112'/>
+                        <attachment title='Response' source='5f2c75e5-b1c2-4d0a-8fbe-35d607fb42fc-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669237027486' status='passed' stop='1669237027487'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='GALAXY A52 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "-android uiautomator",
+  "value": "new UiSelector().resourceId(\"com.google.android.gms:id/list\").childSelector(new UiSelector().className(\"android.widget.LinearLayout\").index(0))"
+}
