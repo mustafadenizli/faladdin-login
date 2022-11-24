@@ -40,7 +40,7 @@ exports.config = {
         snippets: true,
         source: true,
         strict: false,
-        tagExpression: '@test3',
+        tagExpression: '@testRun',
         timeout: 60000,
         ignoreUndefinedDefinitions: true
     },
