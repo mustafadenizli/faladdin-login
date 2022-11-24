@@ -1,5 +1,5 @@
 
-const ElementHelper = require('../ElementHelper.js');
+const ElementHelper = require('../../utility/ElementHelper.js');
 
 const kesfet = 'android=new UiSelector().resourceId("com.faladdin.app:id/getStartedButton")'
 const imageViewHeader = 'android=new UiSelector().resourceId("com.faladdin.app:id/imgViewHeader")'

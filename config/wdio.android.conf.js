@@ -1,6 +1,6 @@
 const { config } = require('../wdio.conf')
 
-config.specs = ['./features/login.feature']
+config.specs = ['./architect/features/login.feature']
 config.capabilities = [
     {
         platformName: 'Android',

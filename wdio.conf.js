@@ -7,7 +7,7 @@ exports.config = {
     path: '/wd/hub',
     runner: 'local',
     specs: [
-        './features/login.feature'
+        './architect/features/login.feature'
     ],
     exclude: [],
 
@@ -32,7 +32,7 @@ exports.config = {
 
 
     cucumberOpts: {
-        require: ['./features/step-definitions/LoginPage.js'],
+        require: ['./architect/step-definitions/LoginPage.js'],
         backtrace: false,
         requireModule: [],
         dryRun: false,
